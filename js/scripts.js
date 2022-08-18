@@ -1,21 +1,12 @@
 // Business Logic
 function creditCard(number) {
-  const numbs = num.split(" ")
   if (number.toString().length === 16) {
-    return true;
-  } else {
+    const numArray = number.toString().split("");
+      return numArray;
+    } else {
     return false;
   }
 }
-
-
-
-
-
-
-
-
-
 
 
 

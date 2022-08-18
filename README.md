@@ -1,20 +1,23 @@
 Describe: creditCard()
- Test: make sure its 16 numbers, not characters 
- Code: 
- const num = 1234 5678 9123 4567;
- const badNum = 1234;
- Expected output: true, false
+Test: make sure its 16 numbers, not characters
+Code:
+creditCard(1234567891234567);
+creditCard(1234);
+Expected output: true, false
 
- check for even index
+Test: check for odd index
+Code:
+Expected output:
 
- double even index
 
- check if index value is double digits (greater than 9)
+double odd index
 
- if double digits, add digit a and b
+check if index value is double digits (greater than 9)
 
- update array to have new number 
+if double digits, add digit a and b
 
- add all elements together 
+update array to have new number 
+
+add all elements together 
 
 implement algorithm to determine if final number ends in 0
